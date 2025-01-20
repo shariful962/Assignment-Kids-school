@@ -1,0 +1,39 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #111111;
+    --orange-1: #FEA301;
+    --orange-2: #F0AA00;
+    --skyBlue: #01ACFD;
+    --skyBlue1: #05D4DF;
+    --blue-1: #5D58EF;
+    --blue-2: #64C8EF;
+    --blue-3: #3CD8E8;
+    --blue-4: #5D58F0;
+    --white: #FFFFFF;
+    --dark-1: #000000;
+    --dark-2: #202020;
+    --dark-3: #808080;
+    --dark-4: #666666;
+    --purple: #8700FF;
+    --green: #95B226;
+
+}
+body {
+    background-color: #FFFFFF;
+    font-family: "Quicksand", serif;
+
+}
+/* common style  */
+.section-title {
+    font-size: 2.875rem;
+    font-weight: 700;
+}
+
