@@ -275,4 +275,13 @@ nav, .banner-content {
     .banner-left-content {
         text-align: center;
     }
+    /* standard curriculum section  */
+    .slider-btn {
+        display: none;
+    }
+    .curriculum-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 }
