@@ -307,11 +307,10 @@ nav, .banner-content {
 }
 .story-right-content{
     max-width: 602px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 291px);
     grid-gap: 20px;
 }
 .story-right-content .right-card {
-    max-width: 291px;
     position: relative;
     border-radius: 16px;
     background-color: var(--white);
@@ -340,7 +339,10 @@ nav, .banner-content {
     position: absolute;
     top: 158px;
     left: 39px;
- 
+    cursor: pointer;
+}
+.story-right-content .right-card .btn-2 {
+    background-color: var(--blue-4);
 }
 
 .story .story-bottom {
@@ -357,6 +359,10 @@ nav, .banner-content {
     border: none;
     border-radius: 12px;
     cursor: pointer;
+}
+
+.img-display {
+    /* display: none; */
 }
 
 /* our story section design end */
@@ -395,4 +401,29 @@ nav, .banner-content {
         align-items: center;
         gap: 20px;
     }
+    /* Our story section  */
+     .story-content {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .show-story {
+        display: none;
+    }
+    .story-right-content {
+        grid-template-columns: repeat(2, 200px);
+        grid-gap: 10px;
+        
+    }
+    .story-right-content .right-card .story-btn{
+        font-size: 12px;
+        top: 100px;
+        left: 24px;
+        
+    }
+    .story-right-content .story-title {
+        margin-left: 10px;
+    }
+
+
 }
