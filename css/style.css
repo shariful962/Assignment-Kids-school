@@ -248,7 +248,64 @@ nav, .banner-content {
     margin: 10px;
 }
 /* standard curiculum section design end */
+/* our story section design start  */
+.story{}
+.story .section-title{
+    margin: 60px 0 80px;
+    text-align: center;
 
+}
+.story-content{
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.story-left-content{
+    max-width: 540px;
+    border-radius: 16px;
+    background-color: var(--white);
+    position: relative;
+}
+.story-left-content img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+.story-left-content .story-title{
+    margin: 58px 0px 48px 38px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.story-left-content .story-desc{
+    max-width: 433px;
+    margin: 0 0 35px 38px;
+    font-size: 1rem;
+    font-family: "Raleway", serif;
+    font-weight: 500;
+    line-height: 29px;
+}
+.story-left-content .story-btn{
+    background-color: var(--blue-3);
+    color: var(--white);
+    padding: 13px 25px;
+    border-radius: 48px;
+    border: none;
+    font-size: 1.125rem;
+    font-family: "Raleway", serif;
+    font-weight: 500;
+    position: absolute;
+    top: 315px;
+    left: 39px;
+}
+.story-right-content{
+    max-width: 602px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.story-right-content .story-title{}
+.story-right-content .story-desc{}
+.story-right-content .story-btn{}
+
+/* our story section design end */
 /* media query  */
 @media screen and (max-width: 576px){
    /* navbar sectin  */
