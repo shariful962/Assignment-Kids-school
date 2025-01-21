@@ -249,7 +249,15 @@ nav, .banner-content {
 }
 /* standard curiculum section design end */
 /* our story section design start  */
-.story{}
+.story{
+    margin-bottom: 100px;
+    background-image: url("../assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   padding: 25px;
+   
+}
 .story .section-title{
     margin: 60px 0 80px;
     text-align: center;
@@ -282,6 +290,7 @@ nav, .banner-content {
     font-family: "Raleway", serif;
     font-weight: 500;
     line-height: 29px;
+    color: var(--dark-4);
 }
 .story-left-content .story-btn{
     background-color: var(--blue-3);
@@ -301,9 +310,54 @@ nav, .banner-content {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
-.story-right-content .story-title{}
-.story-right-content .story-desc{}
-.story-right-content .story-btn{}
+.story-right-content .right-card {
+    max-width: 291px;
+    position: relative;
+    border-radius: 16px;
+    background-color: var(--white);
+}
+.story-right-content .right-card img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+.story-right-content .story-title{
+    font-size: 1rem;
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    max-width: 214px;
+    margin: 38px 0 28px 38px;
+    color:var(--dark-1);
+}
+.story-right-content .right-card .story-btn{
+    background-color: var(--green);
+    color: var(--white);
+    padding: 13px 25px;
+    border-radius: 48px;
+    border: none;
+    font-size: 1rem;
+    font-family: "Raleway", serif;
+    font-weight: 500;
+    position: absolute;
+    top: 158px;
+    left: 39px;
+ 
+}
+
+.story .story-bottom {
+    margin: 80px 0 60px;
+    justify-content: center;
+    align-items: center;
+}
+.story-bottom .story-bottom-btn {
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
 
 /* our story section design end */
 /* media query  */
